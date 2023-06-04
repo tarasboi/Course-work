@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Playfair:wght@300&display=swap');
+
+body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container {
+    background-color: #191A1F;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+header {
+    background-color: #191A1F;
+    font-style: normal;
+    font-family: "Playfair", sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    font-family: "Advent Pro", sans-serif;
+}
+.button:hover {
+    background-color: dodgerblue;
+}
+h1 {
+    color: white;
+    font-family: "Playfair", sans-serif;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+p1 {
+    font-size: 20px;
+    color: white;
+}
+.nav-item {
+    padding: 0px 20px;
+}
+.logo {
+    font-family: "Playfair", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding-right: 93px;
+}
+.logo-item {
+    color: dodgerblue;
+}

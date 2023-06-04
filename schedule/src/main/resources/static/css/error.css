@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair');
+
+h1 {
+    font-family: "Playfair", sans-serif;
+    font-size: 150px;
+    text-align: center;
+}
+h2 {
+    font-family: "Playfair", sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: dodgerblue;
+}
